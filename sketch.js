@@ -30,8 +30,8 @@ function draw() {
   currentX = prevX + deltaX;
   currentY = prevY + deltaY;
   
-  //stroke(random(0,255),random(0,255),random(0,255));
-  stroke(random(0,255));
+  stroke(random(0,255),random(0,255),random(0,255));
+  //stroke(random(0,255));
   strokeWeight(8.0);
   line(prevX, prevY, currentX, currentY);
   
@@ -44,8 +44,8 @@ function draw() {
   
   console.log(currentX,currentY);
   
-  xoff += 0.05;
-  yoff += 0.05; 
+  xoff += 0.02;
+  yoff += 0.10; 
   
  
   
