@@ -1,3 +1,5 @@
+//This is a Perlin noise based drawing code.
+
 let currentX, currentY;
 let xoff = 0;
 let yoff = 10000;
